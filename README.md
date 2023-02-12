@@ -18,6 +18,7 @@
   * The data which have been used in this pipeline is present inside source directory.
   * For loading this data into a database go to the Postgres bin directory and execute the following command.
   
+  <br>
   <div>
     <p float="left">
     <img src="img/pg_restore.png"/>
@@ -29,7 +30,7 @@
 
 <div>
 <p float="left">
-  <img src="img/DB Data Model.png"/>
+  <img src="img/DB Data Model.png" width = 500/>
 </p>
 </div>
 
