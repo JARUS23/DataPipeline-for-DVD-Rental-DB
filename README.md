@@ -3,11 +3,11 @@
 * In this data pipeline, the data comes from the local machine and travels through an architecture. At the end of this architecture we have a dashboard which can provide us insights from a large database.
 * The aim of this architecture is to extract different insights from a large amount of data and make better data driven decisions for an organization.
 
-<div>
-<p float="left">
-  <img src="img/architecture.png" width = 600/>
-</p>
-</div>
+  <div>
+  <p float="left">
+    <img src="img/architecture.png" width = 700/>
+  </p>
+  </div>
 
 * The database used in this pipeline is PostgreSQL
 # Steps Perfomed
@@ -18,7 +18,6 @@
   * The data which have been used in this pipeline is present inside source directory.
   * For loading this data into a database go to the Postgres bin directory and execute the following command.
   
-    <br>
     <div>
       <p float="left">
       <img src="img/pg_restore.png"/>
@@ -44,12 +43,12 @@
   * In ETL, we first extract the data from the database and perform the transformation.
   * Before extracting and transforming we must first create a data model for the data warhouse. Following is a data model for the data warhouse:-
   
-  <br>
-  <div>
-    <p float="left">
-    <img src="img/DW Data Model.png" width = 500/>
-    </p>
-  </div>
+    <br>
+    <div>
+      <p float="left">
+      <img src="img/DW Data Model.png" width = 500/>
+      </p>
+    </div>
   
   * Now we can extract the values from the tables and insert them into new tables accordingly. The commands for all this operations are present in ETL.sql file.
 ### 3. Storing the result of ETL operations in a Data Warhouse
@@ -74,8 +73,8 @@
 * Executing this architecture on a local machine can be slow and time consuming for large amount of data. We can deploy this architecture on the cloud for fast computation.
 * Following is the architecture of the data pipeline which we can implement using cloud:-
 
-<div>
-<p float="left">
-  <img src="img/cloud architecture.png" width = 600/>
-</p>
-</div>
+  <div>
+  <p float="left">
+    <img src="img/cloud architecture.png" width = 600/>
+  </p>
+  </div>
