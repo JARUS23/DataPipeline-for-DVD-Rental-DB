@@ -28,11 +28,11 @@
   * [Note: postgres is the username & dvdrental is the database name]
 * Once the data is loaded into a database, we can see the data model of the database.
 
-<div>
-<p float="left">
-  <img src="img/DB Data Model.png" width = 500/>
-</p>
-</div>
+  <div>
+  <p float="left">
+    <img src="img/DB Data Model.png" width = 500/>
+  </p>
+  </div>
 
 ### 2. Displaying information and performing ETL operations
 * Display information
