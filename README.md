@@ -5,7 +5,7 @@
 
 <div>
 <p float="left">
-  <img src="img/architecture.png"/>
+  <img src="img/architecture.png" width = 600/>
 </p>
 </div>
 
@@ -18,12 +18,12 @@
   * The data which have been used in this pipeline is present inside source directory.
   * For loading this data into a database go to the Postgres bin directory and execute the following command.
   
-  <br>
-  <div>
-    <p float="left">
-    <img src="img/pg_restore.png"/>
-    </p>
-  </div>
+    <br>
+    <div>
+      <p float="left">
+      <img src="img/pg_restore.png"/>
+      </p>
+    </div>
   
   * [Note: postgres is the username & dvdrental is the database name]
 * Once the data is loaded into a database, we can see the data model of the database.
@@ -44,9 +44,10 @@
   * In ETL, we first extract the data from the database and perform the transformation.
   * Before extracting and transforming we must first create a data model for the data warhouse. Following is a data model for the data warhouse:-
   
+  <br>
   <div>
     <p float="left">
-    <img src="img/DW Data Model.png"/>
+    <img src="img/DW Data Model.png" width = 500/>
     </p>
   </div>
   
@@ -75,6 +76,6 @@
 
 <div>
 <p float="left">
-  <img src="img/cloud architecture.png"/>
+  <img src="img/cloud architecture.png" width = 600/>
 </p>
 </div>
