@@ -5,7 +5,7 @@
 
   <div>
   <p float="left">
-    <img src="img/architecture.png" width = 700/>
+    <img src="img/architecture.png" width = 600/>
   </p>
   </div>
 
@@ -43,7 +43,6 @@
   * In ETL, we first extract the data from the database and perform the transformation.
   * Before extracting and transforming we must first create a data model for the data warhouse. Following is a data model for the data warhouse:-
   
-    <br>
     <div>
       <p float="left">
       <img src="img/DW Data Model.png" width = 500/>
