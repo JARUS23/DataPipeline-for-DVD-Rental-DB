@@ -5,7 +5,7 @@
 
   <div>
   <p float="left">
-    <img src="img/architecture.png" width = 600/>
+    <img src="img/architecture.png" width = 700/>
   </p>
   </div>
 
@@ -33,7 +33,7 @@
   </p>
   </div>
 
-### 2. Displaying information and performing ETL operations
+### 2] Displaying information and performing ETL operations
 * Display information
   * Execute ETL.py python script 
   * It will display the information of all the tables present inside a database.
@@ -50,14 +50,14 @@
     </div>
   
   * Now we can extract the values from the tables and insert them into new tables accordingly. The commands for all this operations are present in ETL.sql file.
-### 3. Storing the result of ETL operations in a Data Warhouse
+### 3] Storing the result of ETL operations in a Data Warhouse
 * Once we have extracted the data from the database and transformed it, it is important to store it into some place.
 * The Data warhouse used in this pipeline is Postgres itself.
 * Once we execute the ETL.py, it extract the data from database, perform transformation and store it back in the PostgreSQL. 
-### 4. Exporting the data from Data Warhouse
+### 4] Exporting the data from Data Warhouse
 * To export the data from the database to CSV file execute export.py script.
 * Now we can use this CSV files for different purposes. I have used this CSV files to create a dashboard. 
-### 5. Creating Dashboard
+### 5] Creating Dashboard
 * With the help of the exported CSV files we can create dashboards. This dashboard can help us visualize the data and help us to make better decisions in the future.
 * The dashboard has been created using Tableau.
 
